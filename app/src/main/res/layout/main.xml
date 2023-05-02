@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainGame"
+    android:id="@+id/tableLayout"
+    android:background="@color/background" >
+
+    <GridLayout
+        android:id="@+id/Board"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#000000"
+        android:columnCount="3"
+        android:padding="16dp"
+        android:rowCount="3">
+
+        <ImageView
+            android:id="@+id/colA0"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_margin="8dp"
+            android:background="#ACAAAA" />
+
+        <ImageView
+            android:id="@+id/colA1"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_margin="8dp"
+            android:background="#ACAAAA" />
+
+        <ImageView
+            android:id="@+id/colA2"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_margin="8dp"
+            android:background="#ACAAAA" />
+
+        <ImageView
+            android:id="@+id/colB0"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_margin="8dp"
+            android:background="#ACAAAA" />
+
+        <ImageView
+            android:id="@+id/colB1"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_margin="8dp"
+            android:background="#ACAAAA" />
+
+        <ImageView
+            android:id="@+id/colB2"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_margin="8dp"
+            android:background="#ACAAAA" />
+
+        <ImageView
+            android:id="@+id/colC0"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_margin="8dp"
+            android:background="#ACAAAA" />
+
+        <ImageView
+            android:id="@+id/colC1"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_margin="8dp"
+            android:background="#ACAAAA" />
+
+        <ImageView
+            android:id="@+id/colC2"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_margin="8dp"
+            android:background="#ACAAAA" />
+    </GridLayout>
+
+    <Button
+        android:id="@+id/startGameBtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:onClick="onStartGameClicked"
+        android:text="Start Game" />
+
+</FrameLayout >
+
+
